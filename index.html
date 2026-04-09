@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biblioteca Central UNIFÉ</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+    .uw {
+      background: #fff;
+      border: none;
+      border-radius: 0;
+      overflow: hidden;
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    /* HEADER */
+    .uh {
+      background: #fff;
+      padding: 14px 24px 10px;
+      border-bottom: 1.5px solid #a5c8a7;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .uh-left .inst {
+      font-size: 12px;
+      font-weight: bold;
+      color: #2e7d32;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .uh-left h1 {
+      font-size: 28px;
+      color: #1a5c1e;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-top: 2px;
+    }
+    .uh-logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .uh-logo img { width: 100%; height: 100%; object-fit: contain; }
+
+    /* BODY */
+    .ub { background: #fff; padding: 18px 24px; }
+    .ud {
+      font-size: 17px;
+      color: #222;
+      text-align: center;
+      margin-bottom: 18px;
+      line-height: 1.65;
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .ud strong { color: #1a5c1e; }
+
+    /* COLUMNS */
+    .ucols { display: flex; gap: 18px; align-items: flex-start; }
+    .uimg { flex: 0 0 45%; }
+    .uimg img { width: 100%; border-radius: 5px; display: block; }
+
+    /* SERVICES */
+    .usvc {
+      flex: 1;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 16px 20px;
+    }
+    .usvc h3 {
+      font-size: 15px;
+      font-weight: bold;
+      color: #1a5c1e;
+      border-bottom: 2px solid #2e7d32;
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+    }
+    .usvc ul { list-style: none; }
+    .usvc ul li {
+      font-size: 15px;
+      color: #2e7d32;
+      padding: 8px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 0.5px solid #e0e0e0;
+    }
+    .usvc ul li:last-child { border-bottom: none; }
+    .dot {
+      width: 10px;
+      height: 10px;
+      background: #e07a30;
+      transform: rotate(45deg);
+      flex-shrink: 0;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="uw">
+    <div class="uh">
+      <div class="uh-left">
+        <div class="inst">Universidad Femenina del Sagrado Corazón</div>
+        <h1>Biblioteca Central UNIFÉ</h1>
+      </div>
+      <div class="uh-logo">
+        <img src="https://image2url.com/r2/default/images/1775764634280-3e19ed63-2816-4e32-8ce7-3bfccd54a5fc.jpg" alt="Logo UNIFÉ" />
+      </div>
+    </div>
+
+    <div class="ub">
+      <p class="ud">
+        El <strong>Catálogo en línea</strong> es un registro de todas las fuentes bibliográficas que posee la Biblioteca Central UNIFÉ,
+        entre ellas recursos impresos, digitales y los que están referenciados como bibliografía básica de los cursos que se dictan en la Universidad.
+      </p>
+      <div class="ucols">
+        <div class="uimg">
+          <img src="https://bibliotecaunife.github.io/bannerservicio/index.png" alt="Catálogo en línea UNIFÉ" />
+        </div>
+        <div class="usvc">
+          <h3>Entre los servicios que se encuentran están:</h3>
+          <ul>
+            <li><span class="dot"></span> Chat en línea</li>
+            <li><span class="dot"></span> Capacitación</li>
+            <li><span class="dot"></span> Salas de estudio</li>
+            <li><span class="dot"></span> Guías temáticas</li>
+            <li><span class="dot"></span> Servicio de lectura</li>
+            <li><span class="dot"></span> Servicio de préstamo</li>
+            <li><span class="dot"></span> Servicio de referencia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
